@@ -37,9 +37,16 @@
   }
 }
 
-.header {
+.flexbox-container {
   background-color: #4e4c46;
   width: 100%;
-  height: 10vh;
-  text-align: center;
+  height: 7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base {
+  background-color: #4e4c46f8;
+  padding: 1%;
 }

@@ -5,10 +5,12 @@ import Text from "./Components/Text/Text";
 function App() {
   return (
     <>
-      <div className="header">
-        <Text value="TASKS" />
+      <div className="flexbox-container">
+        <Text className="flexbox-item" value="TASKS" />
       </div>
-      <Board />
+      <div className="base">
+        <Board />
+      </div>
     </>
   );
 }

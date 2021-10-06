@@ -1,0 +1,7 @@
+.group-main {
+  flex-grow: 1;
+}
+
+.right-border {
+  border-right: dashed;
+}
